@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dmitry Kulbeda CV</title>
+  <title>Dmitry Kulbeda | CV</title>
   <link rel="stylesheet" href="./style/normalize.css">
   <link rel="stylesheet" href="./style/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,10 @@
 </head>
 
 <body>
+  <a class="pdf-link" href="https://github.com/RykeVl/CV/tree/main/pdf">
+    <img class="pdf-img" src="./assets/pdf-icon.png" alt="pdf icon">
+  </a>
+
   <div class="root flex-row-wrap flex-center border-box">
     <aside class="personal-info flex-25 border-box">
       <section class="profile flex-center flex-column">
@@ -23,41 +27,43 @@
         <h5 class="profile__title h5-title title">Javascript Developer</h5>
       </section>
 
-      <section class="contacts">
-        <h2 class="contacts__title section-title h2-title title">Contacts</h2>
-        <ul class="contacts__list list">
-          <li class="list__item contacts__list-item">
-            <i class="fa-icon fas fa-phone"></i>+375 29 162 85 24
-          </li>
-          <li class="list__item contacts__list-item">
-            <a class="list__item-link email-link link" href="mailto:iforox@gmail.com">
-              <i class="fa-icon fas fa-at"></i>iforox@gmail.com
-            </a>
-          </li>
-          <li class="list__item contacts__list-item">
-            <i class="fa-icon fab fa-telegram"></i>PXIII422
-          </li>
-        </ul>
-      </section>
+      <div class="personal-info-container">
+        <section class="contacts">
+          <h2 class="contacts__title section-title h2-title title">Contacts</h2>
+          <ul class="contacts__list list">
+            <li class="list__item contacts__list-item">
+              <i class="fa-icon fas fa-phone"></i>+375 29 162 85 24
+            </li>
+            <li class="list__item contacts__list-item">
+              <a class="list__item-link email-link link" href="mailto:iforox@gmail.com">
+                <i class="fa-icon fas fa-at"></i>iforox@gmail.com
+              </a>
+            </li>
+            <li class="list__item contacts__list-item">
+              <i class="fa-icon fab fa-telegram"></i>Ryke_VL
+            </li>
+          </ul>
+        </section>
 
-      <section class="skills">
-        <h2 class="skills-title section-title h2-title title">Skills</h2>
-        <ul class="contacts-list list">
-          <li class="list__item">HTML5/CSS3/SCSS</li>
-          <li class="list__item">Javascript/Typescript</li>
-          <li class="list__item">React</li>
-          <li class="list__item">Webpack</li>
-          <!-- <li class="list__item">Express</li> -->
-        </ul>
-      </section>
+        <section class="skills">
+          <h2 class="skills-title section-title h2-title title">Skills</h2>
+          <ul class="contacts-list list">
+            <li class="list__item">HTML5/CSS3/SCSS</li>
+            <li class="list__item">Javascript/Typescript</li>
+            <li class="list__item">React</li>
+            <li class="list__item">Webpack</li>
+            <!-- <li class="list__item">Express</li> -->
+          </ul>
+        </section>
 
-      <section class="languages">
-        <h2 class="languages-title section-title h2-title title">Languages</h2>
-        <ul class="languages-list list">
-          <li class="list__item">Russian - Native</li>
-          <li class="list__item">English - B2 (epam test)</li>
-        </ul>
-      </section>
+        <section class="languages">
+          <h2 class="languages-title section-title h2-title title">Languages</h2>
+          <ul class="languages-list list">
+            <li class="list__item">Russian - Native</li>
+            <li class="list__item">English - B2 (EPAM Test)</li>
+          </ul>
+        </section>
+      </div>
     </aside>
 
     <main class="skills-info flex-75 border-box">
@@ -65,8 +71,8 @@
         <h2 class="h2-title section-title title">
           <i class="fa-icon fas fa-user-alt"></i>About Me
         </h2>
-        <p class="section-p">I'm looking for a job as a Javascript Developer. I have good experience in the Front-end
-          and less in the Back-end. Please, check out my projects below.</p>
+        <p class="section-p">I'm looking for a job as a Junior Javascript Developer. I developed good amount of
+          Front-end projects and few Back-end. You can check them below.</p>
       </section>
 
       <section class="skills__section education">
@@ -110,16 +116,14 @@
         <h2 class="h2-title section-title title">
           <i class="fa-icon fas fa-code"></i>Projects
         </h2>
+
         <table class="table projects-table">
-          <tr class="table-row">
+          <tr class="table-row table-header">
             <th class="table-header table-cell">
               Title
             </th>
             <th class="table-header table-cell">
-              Github
-            </th>
-            <th class="table-header table-cell">
-              Deploy
+              Github & Deployment
             </th>
             <th class="table-header table-cell">
               Technologies
@@ -127,6 +131,184 @@
             <th class="table-header table-cell">
               Last Time Updated
             </th>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Wildlife
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first" href="https://github.com/RykeVl/portfolio/tree/wildlife">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/wildlife/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell">
+              HTML, SCSS, Semantic, Figma
+            </td>
+            <td class="data-cell table-cell">
+              09/03/2021
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Webdev
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first" href="https://github.com/RykeVl/portfolio/tree/webdev">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/webdev/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell">
+              HTML, Pure CSS, Semantic, <a href="https://en.bem.info">BEM</a>, Figma
+            </td>
+            <td class="data-cell table-cell">
+              27/07/2021
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Calculator
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first"
+                href="https://github.com/RykeVl/portfolio/tree/calculator">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/calculator/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell">
+              JS(Vanilla)
+            </td>
+            <td class="data-cell table-cell">
+              18/10/2020
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Momentum
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first" href="https://github.com/RykeVl/portfolio/tree/momentum">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/momentum/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell">
+              JS, API(Weather, Quotes), Adaptive
+            </td>
+            <td class="data-cell table-cell">
+              25/10/2020
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Virtual Keyboard
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first"
+                href="https://github.com/RykeVl/portfolio/tree/virtual-keyboard">Github</a>
+
+              <a href="https://practical-haibt-e42ca7.netlify.app/virtual-keyboard/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell">
+              JS, Sound Effects, Voice Input
+            </td>
+            <td class="data-cell table-cell">
+              04/11/2020
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Virtual Piano
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first"
+                href="https://github.com/RykeVl/portfolio/tree/virtual-piano">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/virtual-piano/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell">
+              JS, Keyboard Controls, Animations
+            </td>
+            <td class="data-cell table-cell">
+              21/03/2021
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Photo Filter
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first"
+                href="https://github.com/RykeVl/portfolio/tree/photo-filter">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/photo-filter/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell">
+              JS, CSS Filters, File Uploading
+            </td>
+            <td class="data-cell table-cell">
+              27/04/2021
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Async Race
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first"
+                href="https://github.com/RykeVl/portfolio/tree/async-race">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/async-race/dist/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell tech-cell">
+              TypeScript, <strong>Client-Server App</strong>, Asynchronous Programming, ESLint, Webpack, SPA(Single-Page
+              application)
+            </td>
+            <td class="data-cell table-cell">
+              16/06/2021
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              Online Zoo
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first"
+                href="https://github.com/RykeVl/portfolio/tree/online-zoo">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/online-zoo/index.html">Deployment</a>
+            </td>
+            <td class="data-cell table-cell tech-cell">
+              HTML, SCSS, <a href="https://en.bem.info">BEM</a>, JS, Adaptive, Semantic
+            </td>
+            <td class="data-cell table-cell">
+              11/10/2021
+            </td>
+          </tr>
+
+          <tr class="table-row">
+            <td class="data-cell table-cell">
+              English for Kids
+            </td>
+            <td class="data-cell table-cell">
+              <a class="table-link table-link-first"
+                href="https://github.com/RykeVl/portfolio/tree/english-for-kids">Github</a>
+
+              <a href="https://rykevl.github.io/portfolio/english-for-kids/dist/">Deployment</a>
+            </td>
+            <td class="data-cell table-cell tech-cell">
+              React, Typescript, Webpack
+            </td>
+            <td class="data-cell table-cell">
+              20/07/2021
+            </td>
           </tr>
         </table>
       </section>
