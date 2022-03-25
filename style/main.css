@@ -335,12 +335,18 @@ a:hover {
     padding: 10px;
   }
 
+  .profile {
+    margin-right: 10px;
+  }
+
   .personal-info {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
+    padding: 0;
+    font-size: 0.8em;
   }
 
   .skills__section {
