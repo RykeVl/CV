@@ -1,4 +1,4 @@
-/* GENERIC */
+/* GENERAL */
 
 body {
   position: relative;
@@ -25,7 +25,7 @@ a:hover {
   width: 80vw;
   background-color: #f7f7f7;
   border-radius: 15px;
-  padding: 25px 0;
+  padding: 5px 0;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, .35);
 }
 
