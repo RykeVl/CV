@@ -180,8 +180,14 @@ a:hover {
   margin-bottom: 10px;
 }
 
-.contacts {
+.contacts,
+.skills {
   margin-bottom: 20px;
+}
+
+.contacts-list,
+.languages-list {
+  margin: 0;
 }
 
 .contacts__list {
@@ -375,6 +381,7 @@ a:hover {
 
   .profile {
     margin-bottom: 0;
+    max-width: 200px;
   }
 
   .table-header {
